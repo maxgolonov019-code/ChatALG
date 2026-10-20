@@ -1,22 +1,12 @@
-# Секреты
 .env
 .env.local
 .env.*.local
-
-# Коды доступа (не коммитим — там данные покупателей)
-access-codes.json
-
-# Зависимости
 node_modules/
-
-# Логи
 *.log
 npm-debug.log*
-
-# ОС
 .DS_Store
 Thumbs.db
-
-# Редакторы
 .vscode/
 .idea/
+# старый файл больше не нужен, но пусть не попадёт в git
+access-codes.json
